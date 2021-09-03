@@ -1,4 +1,17 @@
+/* footer */
+footer {
+	position: relative;
+	bottom: 0;
+}
+
 /* img */
+#miguelogo {
+	margin: 0 auto;
+	margin-bottom: 2em;
+	display: block;
+	width: 100px;
+	opacity: 0.5;
+}
 #projects img {
 	border-radius: 10px;
 }
@@ -8,8 +21,9 @@
 }
 #projects a img:hover {
     transform: scale(1.01);
-    box-shadow: 0 10px 12px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 10px 2px rgba(0, 0, 0, 0.103);
 }
+
 
 /* colors */
 .vue-color {
@@ -35,6 +49,7 @@
 	-webkit-animation: gradient 15s ease infinite;
 	        animation: gradient 15s ease infinite;
 }
+
 
 @-webkit-keyframes gradient {
 	0% {
