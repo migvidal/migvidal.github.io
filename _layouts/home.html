@@ -31,7 +31,9 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    <p class="rss-subscribe">{{ page.feed_prompt | subscribe }} <a href="{{ "/feed.xml" | relative_url }}">{{page.feed_prompt_link | via RSS}}</a></p>
+    <p class="rss-subscribe">{{ page.feed_prompt | subscribe }}
+      <a href="{{ '/feed.xml' | relative_url }}">{{ page.feed_prompt_link | via RSS }}</a>
+    </p>
   {%- endif -%}
 
 </div>
