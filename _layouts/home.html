@@ -21,7 +21,7 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
             <!-- thumbnail -->
-            <img src="/assets/img/{{ post.thumbnail }}" alt="{{ post.title }}">
+            <img class="post-thumbnail" src="/assets/img/{{ post.thumbnail }}" alt="{{ post.title }}">
           </a>
         </h3>
         {%- if site.show_excerpts -%}
