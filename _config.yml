@@ -21,17 +21,13 @@
 title: Miguel Vidal
 email: miguelvidaf@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Desarrollador web front-end (técnico superior) y Android.
-  Aficionado al diseño de interfaces y de experiencia de usuario, y siempre al tanto de nuevas tendencias.
-
-  He trabajado en HP SCDS con Java, Android y Spring.
-  Y en FiebreTM con JavaScript y Wordpress.
-
-  Actualmente ampliando conocimientos de Android.
+  Migvidal. Desarrollador de apps.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: migvidal_dev
 github_username:  migvidal
+linkedin_username: migvidal
+dribbble_username: miguelvidal
 
 # Build settings
 theme: minima

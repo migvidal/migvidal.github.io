@@ -5,7 +5,8 @@ layout: default
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+    <!-- description -->
+    {%- endif -%}
 
   {{ content }}
 
@@ -20,7 +21,7 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
             <!-- thumbnail -->
-            <img src="/assets/img/{{ post.thumbnail }}" alt="" srcset="">
+            <img src="/assets/img/{{ post.thumbnail }}" alt="{{ post.title }}">
           </a>
         </h3>
         {%- if site.show_excerpts -%}
