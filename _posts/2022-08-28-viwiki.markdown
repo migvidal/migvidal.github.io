@@ -3,6 +3,7 @@ layout: post
 title:  "ViWiki - Cliente de Wikipedia para Android"
 date:   2022-08-28 16:23:48 +0200
 categories: project
+thumbnail: viwiki.png
 ---
 
-[![ViWiki](/assets/img/viwiki.png)](https://github.com/migvidal/ViWiki)
+[Link](https://github.com/migvidal/ViWiki)
