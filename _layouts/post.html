@@ -17,7 +17,8 @@ layout: default
 
   <div class="post-content e-content" itemprop="articleBody">
     <!-- thumbnail -->
-    <img src="/assets/img/{{ page.thumbnail }}" alt="" srcset="">
+    <img src="/assets/img/{{ page.thumbnail }}" alt="{{ page.title }}">
+    <a href="https://github.com/migvidal/{{ page.repo }}">Github</a>
     {{ content }}
   </div>
 

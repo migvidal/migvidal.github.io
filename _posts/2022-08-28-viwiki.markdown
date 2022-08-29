@@ -1,9 +1,14 @@
 ---
 layout: post
 title:  "ViWiki - Cliente de Wikipedia para Android"
-date:   2022-08-28 16:23:48 +0200
 categories: project
 thumbnail: viwiki.png
+repo: ViWiki
 ---
 
-[Link](https://github.com/migvidal/ViWiki)
+[Probar en Appetize](https://appetize.io/app/nr65hvukl4czd3waegjn3ihtsq?device=pixel4&osVersion=11.0&scale=75)
+
+Cliente simple de Wikipedia para Android.
+Creado usando Android con Kotlin, data binding y architecture components.
+Retrofit para el acceso a las API de Wikipedia y Wikimedia.
+Coil para cargar imágenes.
