@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Mi web: migvidal.github.io"
+categories: project
+thumbnail: website.png
+repo: migvidal.github.io
+---
+
+
+Mi web, el centro de mis proyectos. Realizada utilizando Jekyll, un generador de sitios web estáticos. Alojada con Github pages y personalizada con SASS.Pósters diseñados por mi.
