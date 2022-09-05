@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<symbol id="logo" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">    
+<path fill-rule="evenodd" clip-rule="evenodd" d="M50.7749 56.9842L101.55 2.30327L99.05 0.0210571L50.7749 52.0211L50.7749 56.9842Z" fill="black"/>
+<line x1="1.5" y1="107.756" x2="1.5" y2="2.29999" stroke="black" stroke-width="3"/>
+<line x1="100.05" y1="107.756" x2="100.05" y2="2.29999" stroke="black" stroke-width="3"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M50.7751 56.9842L2.52725e-05 2.30327L2.50003 0.0210571L50.7751 52.0211L50.7751 56.9842Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M96.8575 106.3L53 59.2805L55.1594 57.3181L96.8575 102.032L96.8575 106.3Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M102.053 104.127L202.675 3.50413L204.683 5.51187L104.06 106.135L102.053 104.127Z" fill="black"/>
+
+</symbol>
+</svg>

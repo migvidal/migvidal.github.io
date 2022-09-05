@@ -1,44 +1,61 @@
+/* Thumbnails */
 .post-thumbnail {
-    margin: 18px 0;
-    border-radius: 6px;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    box-shadow: 0 6px 8px 2px rgba(0, 0, 0, 0.05);
-
-
-    &:hover {
-        transform: scale(1.01);
-        box-shadow: 0 8px 10px 10px rgba(0, 0, 0, 0.05);
-    }
+  margin: 18px 0;
+  border-radius: 6px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-shadow: 0 6px 8px 2px rgba(0, 0, 0, 0.05);
+  &:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 10px 10px rgba(0, 0, 0, 0.05);
+  }
 }
 
-/* top bar */
+/* Top bar logo */
+.text-title {
+  position: absolute;
+  visibility: hidden;
+}
+.site-title:hover>.text-title {
+  visibility: visible;
+}
+.svg-logo {
+  height: 25px;
+  vertical-align: middle;
+}
+.site-title:hover>.svg-logo {
+  visibility: hidden;
+}
 
+/* Top bar external link */
 .nav-external-link {
   vertical-align: middle;
 }
 
+/* Top bar separator */
 .separator {
   display: inline-block;
   width: 100%;
   height: 2px;
 }
 
-/* gradient */
+/* Animated gradient */
 .gradient-bg {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    -webkit-animation: gradient 15s ease infinite;
-    animation: gradient 15s ease infinite;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
   }
-  
-  @-webkit-keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+
+  50% {
+    background-position: 100% 50%;
   }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
