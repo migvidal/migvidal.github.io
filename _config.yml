@@ -29,6 +29,10 @@ github_username:  migvidal
 linkedin_username: migvidal
 dribbble_username: miguelvidal
 
+# Nav links
+header_pages:
+  - about.markdown
+
 # Build settings
 theme: minima
 plugins:
