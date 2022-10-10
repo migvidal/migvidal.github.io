@@ -13,4 +13,4 @@ Desarrollador web front-end (técnico superior) y Android. Aficionado al diseño
 
 He trabajado en HP SCDS con Java, Android y Spring. Y en Fiebre con JavaScript y Wordpress.
 
-Actualmente ampliando conocimientos de Android.
+Actualmente trabajando en AIR Institute.
