@@ -2,6 +2,21 @@
 h1, h2 {
   font-family: Inter, $base-font-family;
 }
+h1 {
+  font-family: Nabla, $base-font-family;
+  font-variation-settings: 'EDPT' 120, 'EHLT' 100;
+  /* filter: hue-rotate(45deg); */
+  font-size: 4rem !important;
+  transition: font-variation-settings .2s;
+  &:hover {
+    font-variation-settings: 'EDPT' 200, 'EHLT' 100;
+  }
+}
+
+/* Links */
+a {
+
+}
 
 /* Thumbnails */
 .post-thumbnail {
@@ -43,8 +58,19 @@ h1, h2 {
   height: 2px;
 }
 
+/* Alien gradient */
+.alien-gradient {
+  background: linear-gradient(-45deg, #a07e00, #70fc2e);
+}
+
+/* Nabla gradient */
+.nabla-gradient {
+  background: linear-gradient(-45deg, transparent, #ffd82b, #ff6c29);
+  /* filter: hue-rotate(45deg); */
+}
+
 /* Animated gradient */
-.gradient-bg {
+.rainbow-anim-gradient {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   -webkit-animation: gradient 15s ease infinite;
