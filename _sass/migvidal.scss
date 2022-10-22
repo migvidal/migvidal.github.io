@@ -13,11 +13,6 @@ h1 {
   }
 }
 
-/* Links */
-a {
-
-}
-
 /* Thumbnails */
 .post-thumbnail {
   margin: 18px 0;
@@ -31,19 +26,9 @@ a {
 }
 
 /* Top bar logo */
-.text-title {
-  position: absolute;
-  visibility: hidden;
-}
-.site-title:hover>.text-title {
-  visibility: visible;
-}
 .svg-logo {
   height: 25px;
   vertical-align: middle;
-}
-.site-title:hover>.svg-logo {
-  visibility: hidden;
 }
 
 /* Top bar external link */
@@ -55,17 +40,17 @@ a {
 .separator {
   display: inline-block;
   width: 100%;
-  height: 2px;
+  height: 5px;
 }
 
 /* Alien gradient */
 .alien-gradient {
-  background: linear-gradient(-45deg, #a07e00, #70fc2e);
+  background: linear-gradient(45deg, #70fc2e, #a07e00);
 }
 
 /* Nabla gradient */
 .nabla-gradient {
-  background: linear-gradient(-45deg, transparent, #ffd82b, #ff6c29);
+  background: linear-gradient(45deg,#ff6c29, #ffd82b);
   /* filter: hue-rotate(45deg); */
 }
 
