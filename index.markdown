@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Soy Miguel Vidal
+title: Redireccionando a mi nueva web...
 list_title: Mis proyectos
 feed_prompt: Suscríbete
 feed_prompt_link: por RSS
